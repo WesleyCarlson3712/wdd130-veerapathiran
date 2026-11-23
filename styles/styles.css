@@ -55,6 +55,34 @@ nav a:hover {
     color: #E85D3A;
 }
 
+.home-intro {
+    display: flex;
+    direction: row;
+    border: 1px solid black;
+    padding: 20px;
+}
+.home-intro img {
+    width: 500px;
+    height: auto;
+}
+.home-intro-text {
+    margin: 20px;
+    margin-right: 20px;
+}
+.home-intro-text h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+.home-intro-text a {
+    display: inline-block;
+    background-color: #E85D3A;
+    color: #14213D;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
 /* Introduction */
 .data-intro {
     background-color: #FCEDE6;
