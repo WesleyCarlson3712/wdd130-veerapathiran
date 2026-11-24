@@ -48,7 +48,6 @@ header {
     align-items: center;
     padding: 0px 20px;
     max-width: 1200px;
-
 }
 .nav-links {
     display: flex;
@@ -60,14 +59,13 @@ header {
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
-    background-color: #F4F1EA;
-    color: #14213D;
+    color: #F4F1EA;
     text-decoration: none;
     padding: 10px 20px;
     width: 100px;
     margin: auto auto;
     text-align:center;
-    border: 2px solid black;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -75,6 +73,7 @@ nav a:hover {
 }
 
 .home-intro {
+    width: 100%;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -374,15 +373,48 @@ footer a:hover {
 }
 
 /* Mobile Layout */
-@media screen and (max-width: 700px) {
-
-    header {
+@media screen and (max-width: 850px) {
+    .nav-bar {
         flex-direction: column;
-        gap: 15px;
+    }
+    .nav-links {
+        display: flex;
+        gap: 0;
+        align-items: center;
+    }
+    .nav-links a {
+        padding: 10px 0px;
+        width: 80px;
+    }
+    header {
+        height:auto
+    }
+    .home-intro img {
+        position: absolute;
+        height: 100%;
+        z-index: -1;
+    }
+    .home-intro {
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        gap: 10%;
+        height: auto;
     }
 
-    nav {
-        gap: 15px;
+    .home-intro-text {
+        padding: 20px 20px;
+        text-align:center;
+        min-width: 100%;
+        background-color: rgba(255, 255, 255, 0.521);
+    }
+
+    .home-intro-text h1 {
+        line-height: 2rem;
+        margin:0;
+        font-size: 1.8rem;
+        margin-top: 0;
+        text-align:center;
     }
 
     .project-grid {
