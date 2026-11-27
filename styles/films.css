@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Lato";
+}
+
+.films-intro {
+    display: block;
+    padding: 0 20px 20px;
+    border: 1px solid #14213D;
+    margin-top: 20px;
+}
+
+.intro-msg {
+    padding: 20px;
+}
+
+.intro-img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.intro-img img {
+    width: 100%;
+}
+
+.my-films {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.film-poster {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.film-poster img {
+    width: 100%;
+}
+
+.film-msg {
+    text-align: center;
+}
+
+.media-creation-bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.media-creation-msg {
+    grid-column: span 1;
+}
+
+.media-creation-img {
+    grid-column: span 1;
+    width: 50%;
+    justify-self: left;
+}
+
+.media-creation-img img {
+    width: 100%;
+}
+
+.contact-btn {
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    background-color: #E85D3A;
+    color: #F4F1EA;
+}
